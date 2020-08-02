@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import BadgesList from "../components/BadgeList";
 
 import "./styles/Badges.css";
@@ -45,8 +44,7 @@ class Badges extends React.Component {
 
     render() {
         return (
-            <div>
-                <Navbar/>
+            <React.Fragment>
                 <div className="Badges">
                     <div className="Badges__hero">
                         <div className="Badges__container">
@@ -60,7 +58,7 @@ class Badges extends React.Component {
                     </div>
                     <BadgesList  badges={this.state.data}/>
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }
