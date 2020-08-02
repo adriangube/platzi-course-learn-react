@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import BadgesList from "../components/BadgesList";
+import BadgesList from "../components/BadgeList";
 
 import "./styles/Badges.css";
 import confLogo from "../images/badge-header.svg";
