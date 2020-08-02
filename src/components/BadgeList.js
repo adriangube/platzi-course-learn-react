@@ -5,8 +5,8 @@ import {Link} from "react-router-dom";
 
 class BadgesList extends React.Component {
     render() {
-
-        if(this.props.badges.length === 0){
+        const badgeList = [...this.props.badges || []].reverse();
+        if(badgeList.length === 0){
             return (
                 <div>
                     <h3>No badges where found</h3>
@@ -18,7 +18,7 @@ class BadgesList extends React.Component {
         return (
             <div className="BadgesList">
                 <ul className="list-unstyled">
-                    {this.props.badges.map(badge => {
+                    {badgeList.map(badge => {
                         return (
                             <li key={badge.id}>
                                 <BadgesListItem badge={badge} />
