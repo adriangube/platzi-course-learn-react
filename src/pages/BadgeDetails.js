@@ -3,7 +3,6 @@ import confLogo from "../images/platziconf-logo.svg";
 import Badge from "../components/Badge";
 import {Link} from "react-router-dom";
 import "./styles/BadgeDetails.css";
-import Modal from "../components/Modal";
 import DeleteBadgeModal from "../components/DeleteBadgeModal";
 
 function BadgeDetails(props) {
