@@ -1,8 +1,8 @@
 # Platzi course Learn React - Platzi Badges
 
-This app it's the result of my own expirience going through the [Platzi](https://platzi.com/) course about [React](https://reactjs.org/). You can know more about Platzi and his profesional courses in his [website](https://platzi.com/).
+This app it's the result of my own expirience going through the [Platzi](https://platzi.com/) course about [React](https://reactjs.org/). You can know more about Platzi and his profesional courses in their [website](https://platzi.com/).
 
-Platzi Badges allows you to manageme the Badges for Platzi conferences. This includes creating new badges, editing existing ones, filtering and deleting them. I'm not the owner of the Platzi Badges idea of the application and all the recognition for the application is from Platzi, I have simply carried out the project throughout the course and this is the result.
+Platzi Badges allows you to manage the Badges for Platzi conferences. This includes creating new badges, editing existing ones, filtering and deleting them. I'm not the owner of the Platzi Badges idea or the application and all the recognition is for Platzi. I have simply carried out the project throughout the course and this is the result.
 
 ## What is this project and what is not
 
